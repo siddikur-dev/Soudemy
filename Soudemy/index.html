@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soudemy</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome 6.5.1 (Free version) -->
+    <!-- 🔧 Simplified Font Awesome 6 CDN (NO integrity) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- media query -->
+    <style>
+        @media screen and (max-width:670px) {
+            .nav-icon {
+                display: none;
+            }
+
+            .hero {
+                background-position: center;
+                width: 100vh;
+                height: 100vh;
+            }
+
+            .hero-text {
+                padding-top: 220px;
+                /* padding-left: 10px; */
+                justify-content: center;
+                color: white;
+            }
+        }
+
+        @media screen and (min-width:671px) and (max-width:1540px) {
+            .nav-icon {
+                display: block;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <h2>Soudemy</h2>
+                <div class="nav-icon" style="font-size: 30px;">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div>
+                <a class="nav-right" href="">Home</a>
+                <a class="nav-right" href="">About</a>
+                <a class="nav-right" href="">Highlight</a>
+                <a class="nav-right" href="">Team</a>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
