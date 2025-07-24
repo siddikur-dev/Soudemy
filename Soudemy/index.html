@@ -1,87 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Villa</title>
     <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="font-sans text-gray-800">
+</head>
 
+<body class="font-sans text-gray-800 container mx-auto">
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">Villa</div>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-blue-500 transition">Home</a></li>
+                <li><a href="#skyhaus" class="hover:text-blue-500 transition"> SkyHaus</a></li>
+                <li><a href="#contact" class="hover:text-blue-500 transition">Contact </a></li>
+                <li><a href="#about" class="hover:text-blue-500 transition">About</a></li>
+            </ul>
+        </div>
+    </nav>
     <!-- Hero Section -->
     <section class="relative">
-      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Villa" class="w-full h-[600px] object-cover" />
-      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center">
-        <div class="max-w-6xl mx-auto px-6">
-          <div class="border-4 border-white p-8 inline-block">
-            <h1 class="text-white text-4xl md:text-5xl font-bold">Modern <br />Luxury Villa</h1>
-            <p class="text-white text-xl mt-4">Price:<br /> <span class="text-2xl font-semibold">$2,999,99</span></p>
-            <button class="mt-4 bg-white text-black px-6 py-2 rounded hover:bg-gray-200 transition">Schedule a Visit</button>
-          </div>
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Villa"
+            class="w-full h-[600px] object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="border-4 border-white p-8 inline-block">
+                    <h1 class="text-white text-4xl md:text-5xl font-bold">Modern <br />Luxury Villa</h1>
+                    <p class="text-white text-xl mt-4">Price:<br /> <span
+                            class="text-2xl font-semibold">$2,999,99</span></p>
+                    <button class="mt-4 bg-white text-black px-6 py-2 rounded hover:bg-gray-200 transition">Schedule a
+                        Visit</button>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- SkyHaus Residence Section -->
     <section class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
-      <!-- Left Content -->
-      <div>
-        <h2 class="text-3xl font-bold mb-4">SkyHaus Residence</h2>
-        <p class="text-gray-600 mb-8">
-          A property description is made up of 2 parts: key features and property description.
-          The key features section is your opportunity to tell potential tenants about the key
-          selling points of your property, in a bullet point format. The property description
-          section allows you to go in to more depth.
-        </p>
+        <!-- Left Content -->
+        <div>
+            <h2 class="text-3xl font-bold mb-4">SkyHaus Residence</h2>
+            <p class="text-gray-600 mb-8">
+                A property description is made up of 2 parts: key features and property description.
+                The key features section is your opportunity to tell potential tenants about the key
+                selling points of your property, in a bullet point format. The property description
+                section allows you to go in to more depth.
+            </p>
 
-        <div class="grid grid-cols-2 gap-6">
-          <div class="flex items-center space-x-4">
-            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path d="M3 10h18M4 10V7a2 2 0 012-2h12a2 2 0 012 2v3M4 10v10h16V10"></path>
-            </svg>
-            <div>
-              <p class="text-sm text-gray-500">Beds</p>
-              <p class="text-xl font-semibold">5</p>
-            </div>
-          </div>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path d="M3 10h18M4 10V7a2 2 0 012-2h12a2 2 0 012 2v3M4 10v10h16V10"></path>
+                    </svg>
+                    <div>
+                        <p class="text-sm text-gray-500">Beds</p>
+                        <p class="text-xl font-semibold">5</p>
+                    </div>
+                </div>
 
-          <div class="flex items-center space-x-4">
-            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path d="M5 21h14a2 2 0 002-2v-4H3v4a2 2 0 002 2zM3 13h18M8 10a4 4 0 118 0"></path>
-            </svg>
-            <div>
-              <p class="text-sm text-gray-500">Baths</p>
-              <p class="text-xl font-semibold">7</p>
-            </div>
-          </div>
+                <div class="flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path d="M5 21h14a2 2 0 002-2v-4H3v4a2 2 0 002 2zM3 13h18M8 10a4 4 0 118 0"></path>
+                    </svg>
+                    <div>
+                        <p class="text-sm text-gray-500">Baths</p>
+                        <p class="text-xl font-semibold">7</p>
+                    </div>
+                </div>
 
-          <div class="flex items-center space-x-4">
-            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path d="M3 12l2-2m0 0l7-7 7 7m-9 2v6m-4 0h8m4 0h2a2 2 0 002-2V10a2 2 0 00-2-2h-1"></path>
-            </svg>
-            <div>
-              <p class="text-sm text-gray-500">Garages</p>
-              <p class="text-xl font-semibold">4</p>
-            </div>
-          </div>
+                <div class="flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path d="M3 12l2-2m0 0l7-7 7 7m-9 2v6m-4 0h8m4 0h2a2 2 0 002-2V10a2 2 0 00-2-2h-1"></path>
+                    </svg>
+                    <div>
+                        <p class="text-sm text-gray-500">Garages</p>
+                        <p class="text-xl font-semibold">4</p>
+                    </div>
+                </div>
 
-          <div class="flex items-center space-x-4">
-            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path d="M3 13h18M8 21h8M10 17h4M5 3h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2z"></path>
-            </svg>
-            <div>
-              <p class="text-sm text-gray-500">Kitchens</p>
-              <p class="text-xl font-semibold">2</p>
+                <div class="flex items-center space-x-4">
+                    <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M3 13h18M8 21h8M10 17h4M5 3h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2z">
+                        </path>
+                    </svg>
+                    <div>
+                        <p class="text-sm text-gray-500">Kitchens</p>
+                        <p class="text-xl font-semibold">2</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
 
-      <!-- Right Image -->
-      <div>
-        <img src="https://images.unsplash.com/photo-1586105251261-72a756497a12" alt="Room View" class="w-full h-auto rounded-lg shadow-lg" />
-      </div>
+        <!-- Right Image -->
+        <div>
+            <img src="./assets/SkyHaus  Amenities.png" alt="Room View" class="w-full h-auto rounded-lg shadow-lg" />
+        </div>
     </section>
 
-  </body>
+    <!-- Property HighLights -->
+    <section class="py-16">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+
+            <h3 class="text-3xl font-bold mb-4 ">Property Highlights</h3>
+            <p class="text-gray-600 mb-8  ">A property description is made up of 2 parts: key features and property description. The key features
+                section is your opportunity to tell potential tenants.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <img src="./assets/Property Highlights.png" alt="">
+            <img src="./assets/Property Highlights.png" alt="">
+            <img src="./assets/Property Highlights.png" alt="">
+        </div>
+    </section>
+
+</body>
+
 </html>
